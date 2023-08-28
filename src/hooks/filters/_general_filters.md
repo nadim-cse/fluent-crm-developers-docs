@@ -82,7 +82,7 @@ If you alter the country lists of FluentCRM then you may use this filter.
 **Usage:**
 
 ```php 
-add_filter('fluent_crm/countries', function($countires) {
+add_filter('fluent_crm/countries', function($countries) {
   // Process the conutries
   
   return $countries;
